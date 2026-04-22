@@ -1,0 +1,25 @@
+{
+  "name": "Lab Report Analyzer",
+  "short_name": "LabAnalyzer",
+  "description": "AI-powered clinical lab report analysis",
+  "theme_color": "#b85c3e",
+  "background_color": "#faf6ef",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
