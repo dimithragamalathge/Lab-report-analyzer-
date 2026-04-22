@@ -1,0 +1,51 @@
+{
+  "_source": "CLSI EP23-A / CAP Q-Probes / RCPA Critical Values 2023",
+  "_note": "Sri Lankan lab context. Values trigger immediate physician notification.",
+  "haematology": {
+    "haemoglobin_low": { "value": 7.0, "unit": "g/dL", "action": "Transfusion consideration; urgent review" },
+    "haemoglobin_high": { "value": 20.0, "unit": "g/dL", "action": "Polycythaemia workup; hyperviscosity risk" },
+    "wbc_low": { "value": 2.0, "unit": "x10⁹/L", "action": "Neutropenia — infection risk; bone marrow suppression" },
+    "wbc_high": { "value": 30.0, "unit": "x10⁹/L", "action": "Leukaemia/severe infection workup" },
+    "platelets_low": { "value": 50, "unit": "x10⁹/L", "action": "Bleeding risk; haematology review" },
+    "platelets_high": { "value": 1000, "unit": "x10⁹/L", "action": "Thrombocytosis; thrombosis risk" },
+    "neutrophils_low": { "value": 0.5, "unit": "x10⁹/L", "action": "Severe neutropenia — reverse barrier nursing" }
+  },
+  "biochemistry": {
+    "sodium_low": { "value": 120, "unit": "mmol/L", "action": "Severe hyponatraemia — seizure risk; urgent correction" },
+    "sodium_high": { "value": 160, "unit": "mmol/L", "action": "Severe hypernatraemia — neurological risk" },
+    "potassium_low": { "value": 2.5, "unit": "mmol/L", "action": "Arrhythmia risk — urgent IV replacement" },
+    "potassium_high": { "value": 6.5, "unit": "mmol/L", "action": "Fatal arrhythmia risk — IV calcium, insulin-dextrose" },
+    "glucose_low": { "value": 2.8, "unit": "mmol/L", "action": "Severe hypoglycaemia — oral/IV dextrose" },
+    "glucose_high": { "value": 33.3, "unit": "mmol/L", "action": "Hyperosmolar hyperglycaemic state / DKA" },
+    "creatinine_high": { "value": 600, "unit": "µmol/L", "action": "Severe renal failure — urgent nephrology" },
+    "calcium_low": { "value": 1.75, "unit": "mmol/L", "action": "Tetany / seizure risk — IV calcium" },
+    "calcium_high": { "value": 3.5, "unit": "mmol/L", "action": "Hypercalcaemic crisis — IV fluids; bisphosphonate" },
+    "bicarbonate_low": { "value": 10, "unit": "mmol/L", "action": "Severe acidosis — blood gas; urgent review" },
+    "bicarbonate_high": { "value": 40, "unit": "mmol/L", "action": "Severe alkalosis" },
+    "urea_high": { "value": 50, "unit": "mmol/L", "action": "Uraemia — urgent nephrology" },
+    "ammonia_high": { "value": 150, "unit": "µmol/L", "action": "Hepatic encephalopathy risk" },
+    "lactate_high": { "value": 5.0, "unit": "mmol/L", "action": "Severe lactic acidosis — sepsis/ischaemia" }
+  },
+  "cardiac": {
+    "troponin_i_high": { "value": 0.1, "unit": "ng/mL", "action": "Myocardial injury — urgent cardiology" },
+    "troponin_t_high": { "value": 0.1, "unit": "ng/mL", "action": "Myocardial injury — urgent cardiology" },
+    "bnp_high": { "value": 500, "unit": "pg/mL", "action": "Significant heart failure — cardiology review" }
+  },
+  "coagulation": {
+    "pt_inr_high": { "value": 5.0, "unit": "INR", "action": "Bleeding risk — withhold anticoagulants; urgent review" },
+    "aptt_high": { "value": 100, "unit": "seconds", "action": "Coagulation factor deficiency / heparin toxicity" },
+    "fibrinogen_low": { "value": 1.0, "unit": "g/L", "action": "DIC / liver failure — haematology" }
+  },
+  "lipids": {
+    "triglycerides_high": { "value": 11.3, "unit": "mmol/L", "action": "Pancreatitis imminent — urgent restriction + IV insulin" },
+    "ldl_high": { "value": 4.9, "unit": "mmol/L", "action": "Likely familial hypercholesterolaemia — classify as VERY HIGH RISK" }
+  },
+  "liver": {
+    "alt_high": { "value": 500, "unit": "U/L", "action": "Significant hepatocellular injury — urgent hepatology" },
+    "bilirubin_high": { "value": 300, "unit": "µmol/L", "action": "Severe jaundice — hepatology" }
+  },
+  "thyroid": {
+    "tsh_low": { "value": 0.01, "unit": "mIU/L", "action": "Severe hyperthyroidism — thyroid storm risk" },
+    "tsh_high": { "value": 100, "unit": "mIU/L", "action": "Severe hypothyroidism — myxoedema risk" }
+  }
+}

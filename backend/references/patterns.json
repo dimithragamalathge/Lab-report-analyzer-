@@ -1,0 +1,235 @@
+{
+  "_source": "Clinical haematology / biochemistry pattern recognition — BSH / NICE / WHO",
+  "patterns": [
+    {
+      "id": "IDA",
+      "name": "Iron Deficiency Anaemia",
+      "criteria": "Low Hb + Low MCV (<80 fL) + Low ferritin (<13 µg/L female, <30 µg/L male)",
+      "supporting": ["Low serum iron", "Raised TIBC", "Low transferrin saturation (<20%)"],
+      "differentials": ["Anaemia of chronic disease", "Thalassaemia trait", "Sideroblastic anaemia"],
+      "further_investigations": ["Serum iron + TIBC + ferritin if not done", "Blood film", "Investigate cause: menorrhagia screen, GI endoscopy if male/>50F"],
+      "management": "Ferrous sulfate 200mg TDS × 3 months after Hb normalises. Treat underlying cause.",
+      "source": "NICE NG24; BSH IDA Guidelines 2022"
+    },
+    {
+      "id": "ACD",
+      "name": "Anaemia of Chronic Disease",
+      "criteria": "Low-normal Hb + Normal or raised MCV + Raised ferritin + Normal/Low serum iron + Low TIBC",
+      "supporting": ["Raised CRP/ESR", "Known inflammatory/infectious/malignant condition"],
+      "differentials": ["Iron deficiency anaemia", "Combined IDA + ACD"],
+      "further_investigations": ["CRP + ESR", "Investigate underlying cause"],
+      "management": "Treat underlying disease. Iron supplementation only if concurrent IDA confirmed.",
+      "source": "BSH / WHO"
+    },
+    {
+      "id": "B12_FOLATE_DEFICIENCY",
+      "name": "Megaloblastic Anaemia (B12 / Folate Deficiency)",
+      "criteria": "Low Hb + High MCV (>100 fL) + Low B12 (<180 pmol/L) or Low folate",
+      "supporting": ["Hypersegmented neutrophils on film", "Low reticulocytes", "Raised LDH"],
+      "differentials": ["Alcohol-related macrocytosis", "Hypothyroidism", "Liver disease", "Drugs (methotrexate, hydroxycarbamide)"],
+      "further_investigations": ["Blood film", "B12 level", "Folate level", "Intrinsic factor antibody if PA suspected"],
+      "management": "B12 deficiency: IM hydroxocobalamin or oral cyanocobalamin 1mg/day. Folate: folic acid 5mg/day × 4 months.",
+      "source": "NICE; BSH B12 Folate Guidelines 2014"
+    },
+    {
+      "id": "DYSLIPIDAEMIA_ATHEROGENIC",
+      "name": "Atherogenic Dyslipidaemia (Metabolic Syndrome Pattern)",
+      "criteria": "High TG (>1.7 mmol/L) + Low HDL + Normal/mildly raised LDL + High TC:HDL ratio",
+      "supporting": ["Diabetes or pre-diabetes", "Central obesity", "Hypertension", "Elevated fasting glucose"],
+      "differentials": ["Primary hypertriglyceridaemia", "Familial combined hyperlipidaemia"],
+      "further_investigations": ["Fasting glucose/HbA1c", "Waist circumference", "Blood pressure"],
+      "management": "Intensive lifestyle modification. Statin if CVD risk ≥10% (NICE NG238). Fenofibrate if TG >5.6.",
+      "source": "ESC/EAS 2021; NICE NG238"
+    },
+    {
+      "id": "FAMILIAL_HYPERCHOLESTEROLAEMIA",
+      "name": "Possible Familial Hypercholesterolaemia",
+      "criteria": "LDL ≥4.9 mmol/L (≥190 mg/dL)",
+      "supporting": ["Family history premature CVD", "Tendon xanthomata", "Corneal arcus <45 yrs"],
+      "differentials": ["Secondary hypercholesterolaemia (hypothyroidism, nephrotic syndrome)"],
+      "further_investigations": ["TSH (exclude hypothyroid)", "Urine protein/ACR", "Simon Broome / Dutch Lipid Clinic score", "Cascade family testing"],
+      "management": "Classify as VERY HIGH CVD RISK regardless of calculator. High-intensity statin. Lipid clinic referral.",
+      "source": "NICE CG71; ESC/EAS FH Guidelines 2019"
+    },
+    {
+      "id": "METABOLIC_SYNDROME",
+      "name": "Metabolic Syndrome",
+      "criteria": "≥3 of: Central obesity (waist M>90cm/F>80cm SA) + Fasting glucose ≥5.6 mmol/L or known DM + TG ≥1.7 mmol/L + HDL low (M<1.0/F<1.2) + BP ≥130/85 or on antihypertensives",
+      "supporting": ["Insulin resistance", "Raised uric acid", "Fatty liver on imaging"],
+      "differentials": ["Primary obesity", "Cushing syndrome", "Polycystic ovarian syndrome"],
+      "further_investigations": ["Fasting insulin + HOMA-IR", "LFTs (fatty liver)", "Morning cortisol if Cushing suspected"],
+      "management": "Intensive lifestyle: Mediterranean diet + ≥250 min/week exercise + weight loss ≥5%. Address each component individually.",
+      "source": "IDF/AHA/WHO; ESC 2021"
+    },
+    {
+      "id": "T2DM_UNCONTROLLED",
+      "name": "Poorly Controlled Type 2 Diabetes",
+      "criteria": "HbA1c >58 mmol/mol (>7.5%) on treatment",
+      "supporting": ["High fasting glucose", "High TG", "Microalbuminuria", "Elevated creatinine"],
+      "differentials": ["Poor compliance", "Inadequate dosing", "Secondary diabetes", "Latent T1DM (LADA)"],
+      "further_investigations": ["Review medication adherence", "Fasting C-peptide if LADA suspected", "eGFR + urine ACR", "Lipid profile"],
+      "management": "Intensify therapy: optimise metformin, add SGLT2i (if CVD/CKD) or GLP-1 RA or DPP4i. HbA1c target ≤53 mmol/mol.",
+      "source": "NICE NG28; ADA 2024"
+    },
+    {
+      "id": "PREDIABETES",
+      "name": "Pre-diabetes",
+      "criteria": "HbA1c 42–47 mmol/mol or fasting glucose 5.6–6.9 mmol/L",
+      "supporting": ["Central obesity", "Family history T2DM", "South Asian ethnicity"],
+      "differentials": ["Stress hyperglycaemia", "Haemoglobinopathy affecting HbA1c"],
+      "further_investigations": ["Repeat HbA1c in 6 months", "Fasting glucose", "Waist circumference"],
+      "management": "Intensive lifestyle: Mediterranean diet + ≥150 min/week exercise + weight loss if overweight (SA BMI ≥23). Recheck HbA1c 6-monthly.",
+      "source": "NICE NG28; WHO 2023; ADA 2024"
+    },
+    {
+      "id": "CKD",
+      "name": "Chronic Kidney Disease",
+      "criteria": "eGFR <60 mL/min/1.73m² on ≥2 occasions ≥3 months apart, or uACR ≥3 mg/mmol",
+      "supporting": ["Elevated creatinine", "Raised urea", "Proteinuria", "Hypertension"],
+      "differentials": ["AKI", "Dehydration (pre-renal)", "Obstructive uropathy"],
+      "further_investigations": ["Repeat eGFR in 3 months", "Urine ACR", "USS renal tract", "BP measurement", "U&E + FBC"],
+      "management": "BP <130/80 with ACEi/ARB if proteinuria. Avoid NSAIDs, nephrotoxins. CKD G4+ → nephrology referral.",
+      "source": "NICE NG203 2021; KDIGO 2022"
+    },
+    {
+      "id": "HYPOTHYROIDISM",
+      "name": "Hypothyroidism",
+      "criteria": "High TSH (>4.0 mIU/L) + Low free T4",
+      "supporting": ["Raised cholesterol", "Raised CK", "Low sodium", "Macrocytosis", "Raised CRP"],
+      "differentials": ["Subclinical hypothyroidism (normal FT4)", "Non-thyroidal illness"],
+      "further_investigations": ["Free T4", "Anti-TPO antibodies (Hashimoto)", "Thyroid USS if goitre"],
+      "management": "Levothyroxine: start 50–100 mcg/day. Titrate to TSH 0.5–2.5. Recheck TFT in 6 weeks.",
+      "source": "NICE NG145"
+    },
+    {
+      "id": "SUBCLINICAL_HYPOTHYROIDISM",
+      "name": "Subclinical Hypothyroidism",
+      "criteria": "TSH 4–10 mIU/L + Normal free T4",
+      "supporting": ["Symptoms of hypothyroidism", "Anti-TPO positive", "Dyslipidaemia"],
+      "differentials": ["Recovery from non-thyroidal illness", "Hashimoto thyroiditis"],
+      "further_investigations": ["Anti-TPO antibodies", "Repeat TSH in 3–6 months"],
+      "management": "Treat if TSH >10 or symptomatic. Observe and repeat if TSH 4–10 asymptomatic.",
+      "source": "NICE NG145"
+    },
+    {
+      "id": "HYPERTHYROIDISM",
+      "name": "Hyperthyroidism",
+      "criteria": "Low TSH (<0.4 mIU/L) + High free T4 or free T3",
+      "supporting": ["Palpitations", "Weight loss", "Raised ALP", "Low cholesterol"],
+      "differentials": ["Graves disease", "Toxic nodular goitre", "Thyroiditis", "Excess exogenous T4"],
+      "further_investigations": ["Free T3", "TSH receptor antibodies (TRAb)", "Thyroid USS ± isotope scan"],
+      "management": "Refer endocrinology. Carbimazole or PTU. Beta-blocker for symptom relief.",
+      "source": "NICE NG145; BTA guidelines"
+    },
+    {
+      "id": "NAFLD",
+      "name": "Non-Alcoholic Fatty Liver Disease / MASLD",
+      "criteria": "Elevated ALT/AST (1.5–3×ULN) + No excess alcohol + Metabolic risk factors",
+      "supporting": ["High TG", "Raised glucose/HbA1c", "Central obesity", "Low albumin if advanced"],
+      "differentials": ["Alcoholic liver disease", "Viral hepatitis", "Drug-induced liver injury"],
+      "further_investigations": ["USS abdomen", "HBsAg + anti-HCV", "Autoimmune liver screen (ANA, SMA)", "FIB-4 score (age × AST / platelets × √ALT)"],
+      "management": "Weight loss ≥7% body weight. Mediterranean diet. Treat metabolic syndrome. Restrict alcohol. Hepatology referral if fibrosis suspected.",
+      "source": "NICE NG49; EASL NAFLD Guidelines 2024"
+    },
+    {
+      "id": "LIVER_INJURY_ACUTE",
+      "name": "Acute Hepatocellular Injury",
+      "criteria": "ALT >3×ULN (>168 U/L male, >135 U/L female) — acute pattern",
+      "supporting": ["AST also raised", "Raised bilirubin if cholestatic", "Recent drug/herbal introduction"],
+      "differentials": ["Viral hepatitis A/B/E", "Drug-induced liver injury (DILI)", "Ischaemic hepatitis", "Autoimmune hepatitis"],
+      "further_investigations": ["Viral hepatitis serology (HBsAg, anti-HCV, HAV IgM, HEV IgM)", "Autoimmune screen", "USS abdomen", "Review all medications including herbals and supplements"],
+      "management": "Stop potentially causative drugs. Hepatology referral if ALT >3×ULN persistent or >10×ULN.",
+      "source": "NICE NG49; EASL DILI Guidelines"
+    },
+    {
+      "id": "VITAMIN_D_DEFICIENCY",
+      "name": "Vitamin D Deficiency",
+      "criteria": "25-OH Vitamin D <50 nmol/L",
+      "supporting": ["Bone pain", "Muscle weakness", "South Asian ethnicity (common)", "Indoor lifestyle"],
+      "differentials": ["Malabsorption", "Renal disease", "Hepatic disease"],
+      "further_investigations": ["Calcium + phosphate + ALP + PTH"],
+      "management": "Deficiency (<25 nmol/L): loading dose regimen (colecalciferol 300,000 IU total). Insufficiency (25–50): 1000–2000 IU/day maintenance.",
+      "source": "NICE PH56; SACN Vitamin D report"
+    },
+    {
+      "id": "HYPERURICAEMIA_GOUT",
+      "name": "Hyperuricaemia / Gout Risk",
+      "criteria": "Uric acid >0.45 mmol/L (male) or >0.36 mmol/L (female)",
+      "supporting": ["Joint pain", "Tophi", "Renal calculi", "Metabolic syndrome", "Diuretic use"],
+      "differentials": ["Asymptomatic hyperuricaemia", "Psoriatic arthritis"],
+      "further_investigations": ["Urine urate", "Renal function", "Joint aspirate if acute"],
+      "management": "Acute gout: NSAIDs or colchicine or corticosteroid. Chronic: allopurinol (target urate <0.36 mmol/L). Lifestyle: reduce red meat, beer, fructose.",
+      "source": "NICE CG8; EULAR Gout Guidelines 2022"
+    },
+    {
+      "id": "HYPERCALCAEMIA",
+      "name": "Hypercalcaemia",
+      "criteria": "Corrected calcium >2.60 mmol/L",
+      "supporting": ["Fatigue", "Constipation", "Polyuria", "Bone pain"],
+      "differentials": ["Primary hyperparathyroidism (most common outpatient cause)", "Malignancy (PTHrP)", "Sarcoidosis", "Vitamin D toxicity"],
+      "further_investigations": ["PTH (raised = primary HPT; suppressed = malignancy/other)", "PTHrP", "Vitamin D levels", "Urinary calcium", "Chest X-ray / CT if malignancy suspected"],
+      "management": "Mild (2.6–3.0): monitor. Moderate-severe: IV fluids, bisphosphonate if malignancy. Refer endocrinology/oncology.",
+      "source": "NICE; AACE guidelines"
+    },
+    {
+      "id": "HYPONATRAEMIA",
+      "name": "Hyponatraemia",
+      "criteria": "Sodium <136 mmol/L",
+      "supporting": ["Nausea/confusion if severe", "Medications (diuretics, SSRIs, NSAIDs)", "Heart failure/cirrhosis/nephrotic syndrome"],
+      "differentials": ["SIADH", "Hypovolaemic (dehydration)", "Hypervolaemic (heart failure, cirrhosis)", "Hypothyroidism", "Addison's disease"],
+      "further_investigations": ["Serum osmolality", "Urine sodium + osmolality", "TSH", "Cortisol (if Addison suspected)", "Review medications"],
+      "management": "Treat underlying cause. Max correction rate 10 mmol/L in first 24h (osmotic demyelination risk). Severe symptomatic: endocrinology/nephrology input.",
+      "source": "NICE; European Hyponatraemia Guidelines 2014"
+    },
+    {
+      "id": "POLYCYTHAEMIA",
+      "name": "Polycythaemia",
+      "criteria": "Haemoglobin >20 g/dL or haematocrit >0.52 (male) / >0.48 (female)",
+      "supporting": ["Raised WBC and platelets (if primary PV)", "Plethoric appearance", "Splenomegaly"],
+      "differentials": ["Polycythaemia vera (JAK2 mutation)", "Secondary (sleep apnoea, COPD, smoking)", "Relative (dehydration)"],
+      "further_investigations": ["JAK2 V617F mutation", "EPO level", "Red cell mass if uncertain", "Renal USS (EPO-secreting tumour)"],
+      "management": "Haematology referral. Venesection if PV. Treat cause if secondary.",
+      "source": "BSH PV Guidelines; WHO 2022"
+    },
+    {
+      "id": "NEUTROPENIA",
+      "name": "Neutropenia",
+      "criteria": "Neutrophils <1.8 × 10⁹/L",
+      "supporting": ["Recent chemotherapy", "Autoimmune disease", "Drug history (carbimazole, clozapine)", "Infections"],
+      "differentials": ["Drug-induced", "Autoimmune", "Viral (EBV, CMV)", "Bone marrow suppression", "Ethnic benign neutropenia"],
+      "further_investigations": ["Blood film", "Repeat FBC to confirm", "Drug review", "ANA (autoimmune)", "Bone marrow biopsy if persistent severe"],
+      "management": "Severe neutropenia (<0.5): reverse barrier nursing. Review all medications. Haematology referral if persistent or unexplained.",
+      "source": "BSH; ESMO Guidelines"
+    },
+    {
+      "id": "THROMBOCYTOPENIA",
+      "name": "Thrombocytopenia",
+      "criteria": "Platelets <150 × 10⁹/L",
+      "supporting": ["Petechiae/bruising", "Splenomegaly", "Liver disease", "Autoimmune condition", "Recent viral illness"],
+      "differentials": ["ITP (immune)", "Drug-induced", "Heparin-induced (HITT)", "DIC", "Hypersplenism", "Bone marrow failure"],
+      "further_investigations": ["Blood film (exclude EDTA pseudothrombocytopenia)", "Coagulation screen (DIC)", "Anti-platelet antibodies", "Liver function"],
+      "management": "Platelets <50 with bleeding: urgent haematology. Mild (100–150): observe and repeat. Haematology referral if <80 or symptomatic.",
+      "source": "BSH ITP Guidelines 2023"
+    },
+    {
+      "id": "DKA_RISK",
+      "name": "DKA / Hyperglycaemic Crisis Risk",
+      "criteria": "Glucose >14 mmol/L + suspect ketonaemia/ketonuria",
+      "supporting": ["Known T1DM", "High-dose steroids", "Vomiting", "Infection", "Fruity breath"],
+      "differentials": ["HHS (hyperosmolar state)", "Starvation ketosis", "Alcoholic ketoacidosis"],
+      "further_investigations": ["Blood ketones", "Blood gas (pH, bicarbonate)", "Serum electrolytes", "Renal function"],
+      "management": "EMERGENCY: Hospital admission. IV fluids + IV insulin infusion + electrolyte monitoring.",
+      "source": "JBDS DKA Guidelines 2023; ADA 2024"
+    },
+    {
+      "id": "ELEVATED_TROPONIN",
+      "name": "Elevated Troponin — Myocardial Injury",
+      "criteria": "Troponin I >0.04 ng/mL or Troponin T >0.014 ng/mL",
+      "supporting": ["Chest pain", "ECG changes", "Dyspnoea", "AKI (demand ischaemia)"],
+      "differentials": ["NSTEMI/STEMI", "Myocarditis", "PE", "Demand ischaemia (sepsis, tachycardia)", "CKD (elevated at baseline)"],
+      "further_investigations": ["Serial troponin (0h and 3h)", "12-lead ECG", "Urgent cardiology review"],
+      "management": "URGENT CARDIOLOGY REVIEW. Dual antiplatelet + heparin if ACS confirmed.",
+      "source": "ESC ACS Guidelines 2023; NICE NG185"
+    }
+  ]
+}

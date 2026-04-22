@@ -1,0 +1,195 @@
+{
+  "_source": "BSH / NICE / WHO / CLSI grading criteria",
+  "_levels": "normal | mild | moderate | severe | critical",
+  "haemoglobin_male": {
+    "critical_low":  7.0,
+    "severe_low":    9.0,
+    "moderate_low": 10.0,
+    "mild_low":     12.0,
+    "normal_low":   13.0,
+    "normal_high":  17.5,
+    "unit": "g/dL"
+  },
+  "haemoglobin_female": {
+    "critical_low":  7.0,
+    "severe_low":    8.0,
+    "moderate_low":  9.0,
+    "mild_low":     10.0,
+    "normal_low":   11.5,
+    "normal_high":  16.0,
+    "unit": "g/dL"
+  },
+  "wbc": {
+    "critical_low": 2.0,
+    "severe_low":   3.0,
+    "moderate_low": 3.5,
+    "mild_low":     4.0,
+    "normal_high":  11.0,
+    "mild_high":    12.0,
+    "moderate_high": 15.0,
+    "severe_high":  20.0,
+    "critical_high": 30.0,
+    "unit": "x10⁹/L"
+  },
+  "platelets": {
+    "critical_low":  50,
+    "severe_low":    80,
+    "moderate_low": 100,
+    "mild_low":     150,
+    "normal_high":  400,
+    "mild_high":    500,
+    "moderate_high": 700,
+    "severe_high":  900,
+    "critical_high": 1000,
+    "unit": "x10⁹/L"
+  },
+  "sodium": {
+    "critical_low":  120,
+    "severe_low":    125,
+    "moderate_low": 130,
+    "mild_low":     136,
+    "normal_high":  145,
+    "mild_high":    150,
+    "moderate_high": 155,
+    "severe_high":  160,
+    "critical_high": 165,
+    "unit": "mmol/L"
+  },
+  "potassium": {
+    "critical_low":  2.5,
+    "severe_low":    2.8,
+    "moderate_low":  3.0,
+    "mild_low":      3.5,
+    "normal_high":   5.0,
+    "mild_high":     5.5,
+    "moderate_high": 6.0,
+    "severe_high":   6.5,
+    "critical_high": 7.0,
+    "unit": "mmol/L"
+  },
+  "creatinine": {
+    "normal_male":   115,
+    "normal_female":  97,
+    "mild_high":     150,
+    "moderate_high": 300,
+    "severe_high":   500,
+    "critical_high": 600,
+    "unit": "µmol/L"
+  },
+  "glucose": {
+    "critical_low":  2.8,
+    "severe_low":    3.0,
+    "mild_low":      3.9,
+    "normal_high_fasting": 5.5,
+    "prediabetes_high": 6.9,
+    "diabetes_threshold": 7.0,
+    "severe_high":  16.7,
+    "critical_high": 33.3,
+    "unit": "mmol/L"
+  },
+  "hba1c": {
+    "normal_high":     42,
+    "prediabetes_low": 42,
+    "prediabetes_high": 47,
+    "diabetes_threshold": 48,
+    "moderate_high":   58,
+    "severe_high":     75,
+    "critical_high":   97,
+    "unit": "mmol/mol"
+  },
+  "total_cholesterol": {
+    "normal_high":    5.0,
+    "mild_high":      6.0,
+    "moderate_high":  7.0,
+    "severe_high":    8.0,
+    "unit": "mmol/L"
+  },
+  "ldl_cholesterol": {
+    "normal_high":    3.0,
+    "mild_high":      3.5,
+    "moderate_high":  4.0,
+    "severe_high":    4.9,
+    "unit": "mmol/L",
+    "note": "LDL ≥4.9 = FH threshold — classify as VERY HIGH CVD RISK regardless of calculator"
+  },
+  "triglycerides": {
+    "normal_high":    1.7,
+    "mild_high":      2.3,
+    "moderate_high":  5.6,
+    "severe_high":    8.5,
+    "critical_high": 11.3,
+    "unit": "mmol/L"
+  },
+  "hdl_male": {
+    "critical_low":  0.8,
+    "severe_low":    0.9,
+    "low":           1.0,
+    "normal_low":    1.0,
+    "normal_high":   3.5,
+    "unit": "mmol/L"
+  },
+  "hdl_female": {
+    "critical_low":  0.9,
+    "severe_low":    1.0,
+    "low":           1.2,
+    "normal_low":    1.2,
+    "normal_high":   3.5,
+    "unit": "mmol/L"
+  },
+  "alt": {
+    "normal_male":   56,
+    "normal_female": 45,
+    "mild_high":     80,
+    "moderate_high": 200,
+    "severe_high":   500,
+    "critical_high": 1000,
+    "unit": "U/L"
+  },
+  "ast": {
+    "normal_high":   40,
+    "mild_high":     60,
+    "moderate_high": 120,
+    "severe_high":   300,
+    "critical_high": 500,
+    "unit": "U/L"
+  },
+  "tsh": {
+    "critical_low":  0.01,
+    "severe_low":    0.1,
+    "mild_low":      0.4,
+    "normal_high":   4.0,
+    "mild_high":     6.0,
+    "moderate_high": 10.0,
+    "severe_high":   20.0,
+    "critical_high": 100.0,
+    "unit": "mIU/L"
+  },
+  "calcium": {
+    "critical_low":  1.75,
+    "severe_low":    1.90,
+    "moderate_low":  2.00,
+    "mild_low":      2.15,
+    "normal_high":   2.60,
+    "mild_high":     2.75,
+    "moderate_high": 3.00,
+    "severe_high":   3.25,
+    "critical_high": 3.50,
+    "unit": "mmol/L"
+  },
+  "vitamin_b12": {
+    "critical_low":  100,
+    "severe_low":    150,
+    "mild_low":      180,
+    "normal_low":    180,
+    "normal_high":   914,
+    "unit": "pmol/L"
+  },
+  "vitamin_d": {
+    "critical_low":  12.5,
+    "severe_low":    25,
+    "mild_low":      50,
+    "normal_low":    50,
+    "normal_high":   250,
+    "unit": "nmol/L"
+  }
+}

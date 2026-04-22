@@ -1,0 +1,217 @@
+{
+  "_source": "ESC 2021 CVD Prevention · AHA 2024 Resistance Training Statement · ACSM FITT 2024 · ADA 2024 · NICE NG238 · WHO 2023",
+  "_patient_profile": "Urban Sri Lankan upper-middle-class. Western-influenced diet. Gym access. English-literate. Familiar with Mediterranean concepts.",
+  "diet": {
+    "recommended_pattern": "Mediterranean diet adapted for urban Sri Lankan upper-middle-class",
+    "evidence": "48% reduction in MACE (OR 0.52); 23% reduced all-cause mortality (Hareer 2025, 87 studies, >1.4M participants); ESC 2021 Class I Level A",
+    "universal_targets": {
+      "saturated_fat_pct": "<7% total energy (~<15g/day at 2000 kcal)",
+      "trans_fat_pct": "<1%; avoid industrially produced trans fats",
+      "salt_gday": "<5",
+      "fibre_gday": "25–40",
+      "vegetables_fruit_gday": "≥400 (5 portions)",
+      "whole_grains": "≥3 servings/day; replace refined carbohydrates"
+    },
+    "ldl_lowering_foods": {
+      "oat_beta_glucan":     { "dose": "3g/day (40g rolled oats + 1 portion lentils)", "effect": "LDL -0.25 mmol/L" },
+      "plant_sterols_stanols": { "dose": "2g/day", "effect": "LDL -0.5 mmol/L", "evidence": "ESC/EAS Class I Level A" },
+      "legumes":             { "dose": "130g cooked/day", "effect": "LDL -0.17 mmol/L" },
+      "nuts":                { "dose": "30g/day (small handful)", "effect": "LDL -5%; HDL raised" },
+      "avocado":             { "dose": "½/day", "effect": "LDL -0.13 mmol/L (AHA 2022)" },
+      "oily_fish":           { "dose": "≥2 servings/week", "effect": "TG -0.3–0.5 mmol/L; HDL raised" },
+      "extra_virgin_olive_oil": { "dose": "2 tbsp/day", "effect": "LDL -0.3 mmol/L" }
+    },
+    "foods_to_reduce": {
+      "coconut_oil": "High in saturated fat — switch to extra-virgin olive oil for cooking",
+      "white_rice": "GI 72–83; replace one meal/day with brown rice (GI 48–55), quinoa (35–53), or barley",
+      "refined_carbohydrates": "Raise TG and lower HDL — white bread, pasta, pastries",
+      "saturated_fat_sources": "Red meat fat, full-fat dairy, coconut milk curries (limit to 2×/week)",
+      "salt_sources": "Processed foods, instant noodles (Maggi), papadams, soy sauce, fish sauce",
+      "fructose_rich": "Soft drinks, fruit juices — NAFLD and TG risk"
+    },
+    "gi_reference": {
+      "rolled_oats": 48, "brown_rice": 52, "white_rice": 77, "quinoa": 44,
+      "whole_wheat_bread": 55, "sweet_potato": 52, "string_hoppers": 62
+    },
+    "condition_specific": {
+      "dyslipidaemia": "Prioritise: oat beta-glucan 3g/day + plant sterols 2g/day + oily fish 2×/week + nuts 30g/day. Replace coconut oil with EVOO. Reduce saturated fat to <7%.",
+      "hypertension": "DASH diet. Target <5g salt/day. Increase potassium (banana 420mg, avocado 485mg, sweet potato 540mg). Remove salt shaker from table.",
+      "diabetes_t2dm": "Mediterranean + plate method (½ vegetables + ¼ lean protein + ¼ complex carbs). Post-meal 10–15 min walk reduces postprandial glucose 22% (Buffey 2022).",
+      "prediabetes": "Low-GI carbohydrates. Plate method. Reduce white rice portion to ¾ cup cooked. Increase legumes.",
+      "nafld": "Weight loss ≥7%. Restrict fructose and alcohol (complete). Mediterranean diet. 2+ cups coffee/day — 40% reduced liver fibrosis.",
+      "ckd": "Protein 0.8g/kg/day. Salt <5g/day. Potassium restriction only if eGFR <30 (limit banana, avocado, chocolate). Phosphorus: limit dairy to 1 cup/day; avoid cola.",
+      "iron_deficiency": "Haem iron 2–3×/week (lean red meat, liver, fish). Vitamin C with every iron-rich meal (lemon juice on lentils, orange juice). Delay tea/coffee 1 hour after meals — tannins reduce absorption 60%.",
+      "metabolic_syndrome": "500–750 kcal/day deficit. Largest meal at lunch. Avoid eating after 9pm. No meal skipping."
+    },
+    "accessible_in_sri_lanka": {
+      "locally_available": ["Seer fish (thora)", "Tuna (kelawalla)", "Mackerel", "Lentils (dhal)", "Green leafy vegetables", "Guava", "Papaya"],
+      "imported_available": ["Salmon", "Rolled oats (Quaker)", "Quinoa", "Olive oil", "Avocado", "Almonds", "Walnuts"]
+    }
+  },
+  "exercise": {
+    "minimum_aerobic": { "minutes_week": 150, "intensity": "moderate", "evidence": "ESC 2021 Class I Level A" },
+    "optimal_aerobic": { "minutes_week": 300, "intensity": "moderate", "note": "Linear dose-response for CV outcomes above 150 min" },
+    "resistance": { "sessions_week": "2–3", "sets_reps": "2–3 sets × 8–12 reps", "load": "60–75% 1-RM", "note": "Non-consecutive days; all major muscle groups; AHA 2024" },
+    "intensity_guides": {
+      "moderate": "Talk but not sing; HR 50–70% max; RPE 12–14/20",
+      "vigorous": "Cannot maintain conversation; HR 70–85% max; RPE 15–17/20",
+      "hr_formula": "Max HR = 220 − age"
+    },
+    "condition_specific": {
+      "dyslipidaemia": "≥200 min/week moderate-to-vigorous. Combined aerobic + resistance superior for lipid improvement (ESSA 2025). TG reduced -5.3 mg/dL, HDL +2.3 mg/dL.",
+      "hypertension": "Daily aerobic preferred (BP lowering lasts 24h post-session). SBP reduction -4.9 to -12 mmHg with 150 min/week. Dynamic resistance only — avoid isometric holds and Valsalva.",
+      "diabetes_t2dm": "Never 2 consecutive days without exercise (ADA rule). Post-meal 10–15 min walks — highest evidence for postprandial glucose. Check glucose before exercise if on insulin/sulphonylurea.",
+      "metabolic_syndrome": "≥250–300 min/week for weight reduction. Progressive 4-week ramp-up plan.",
+      "nafld": "150–200 min/week aerobic reduces hepatic fat 30–40% independently of weight loss.",
+      "post_mi": "MANDATORY cardiac rehabilitation before any exercise prescription. Do not independently prescribe vigorous exercise.",
+      "ckd_g3": "150 min/week low-to-moderate intensity. Low-impact (walking, swimming, cycling). Medical clearance required if eGFR <45."
+    },
+    "sample_week_general": {
+      "mon": "45 min gym cardio (treadmill/elliptical) + 20 min resistance",
+      "wed": "30 min swim or brisk jog/walk",
+      "fri": "45 min cardio + 25 min resistance",
+      "sat": "45 min outdoor walk, cycling, tennis, or sport",
+      "daily": "10 min walk after main meal"
+    },
+    "accessibility_sri_lanka": {
+      "gym": "Full gym facilities common — treadmill, elliptical, free weights, cable machines, group classes",
+      "sport": "Swimming (hotel/club pools, SSC, NCC, CCC), tennis, badminton, squash, golf (2 rounds ≈ 150 min)",
+      "home": "Treadmill/exercise bike common. Peloton app, Nike Training Club, YouTube. Apple Watch / Garmin for tracking.",
+      "travel": "Hotel gym. Bodyweight: squats, push-ups, lunges, plank."
+    }
+  },
+  "sleep": {
+    "target_hours": "7–9 hours/night (adults 18–64); 7–8 (≥65)",
+    "source": "WHO; ESC 2021",
+    "osa_screen": {
+      "criteria": "BMI >25 (SA threshold) + snoring + daytime sleepiness (Epworth ≥10)",
+      "action": "Sleep study referral. CPAP reduces SBP 2–5 mmHg and improves glucose metabolism.",
+      "cvd_risk": "Untreated OSA raises CVD risk 2–3× (ESC 2021)"
+    },
+    "hygiene": {
+      "environment": "Dark, cool room 16–19°C. White noise app for urban noise.",
+      "behaviour": "Consistent bedtime 7 days/week. No screens 45–60 min before bed. No large meals within 2–3 hours. Limit caffeine after 2pm.",
+      "relaxation": "Mindfulness apps (Calm, Headspace). 4-7-8 breathing. Light evening yoga/stretching."
+    },
+    "condition_specific": {
+      "metabolic_syndrome_diabetes": "Short sleep worsens insulin resistance and elevates cortisol. OSA screen essential.",
+      "hypertension": "Each 1-hour sleep deficit raises SBP ~0.9 mmHg. OSA screen and CPAP as above.",
+      "dyslipidaemia": "Short sleep associated with higher LDL and lower HDL. Target consistent 7–9 hours."
+    }
+  },
+  "alcohol": {
+    "position": "WHO 2023: No safe level of alcohol. ESC 2021: As low as possible. NICE NG238: Reduce alcohol to reduce CVD risk.",
+    "risk_stratified": {
+      "established_cvd_hf": "Complete abstinence — directly cardiotoxic; AF trigger",
+      "liver_disease": "Complete abstinence — essential for hepatic recovery (NICE NG49)",
+      "diabetes": "Strongly counsel abstinence or major reduction — bidirectional glycaemic effects",
+      "ckd": "Complete abstinence preferred",
+      "hypertension": "Significant reduction — each unit raises SBP ~1–2 mmHg",
+      "high_tg": "Abstinence until normalised — alcohol acutely elevates TG",
+      "high_cvd_risk_10pct": "Minimal or abstinence — dose-response with CV events",
+      "low_risk": "Informed choice; WHO position discussed; if drinking: <14 units/week (M) / <7 (F); ≥2 alcohol-free days/week"
+    },
+    "unit_guide_sri_lanka": {
+      "wine_175ml_glass": "2.1 units (restaurant pours often 200–250ml = 2.4–3 units)",
+      "champagne_125ml": "1.5 units",
+      "beer_330ml_5pct": "1.7 units",
+      "spirits_25ml": "1 unit (home pours often 50–75ml = 2–3 units)",
+      "cocktails": "2–4+ units (variable; counsel awareness)"
+    },
+    "counselling_points": [
+      "Restaurant wine glass (250ml) = 3 units, not 1 'glass'",
+      "Two drinks at dinner + two at the bar = 6–8 units in one evening",
+      "Recommend unit tracking app (Drinkaware, LessGlass)",
+      "Alcohol-free alternatives: Heineken 0.0, sparkling water with citrus, mocktails",
+      "Red wine polyphenol benefit is small and outweighed by alcohol harms at >1 unit/day (ESC 2021)"
+    ]
+  },
+  "followup_timelines": {
+    "lipids_new_statin_primary": { "test": "Lipid profile + LFTs", "interval": "6–8 weeks", "reason": "Check ≥40% non-HDL reduction; LFT safety; tolerance (NICE NG238)" },
+    "lipids_new_statin_secondary": { "test": "Lipid profile + LFTs", "interval": "6 weeks → 3 months → annually", "reason": "Target LDL <2.0 mmol/L; aggressive titration" },
+    "lipids_stable_on_statin": { "test": "Lipid profile + LFTs", "interval": "Annually", "reason": "Maintenance monitoring" },
+    "high_tg_lifestyle": { "test": "Fasting TG + lipid profile", "interval": "3 months", "reason": "Dietary response assessment" },
+    "bp_new_antihypertensive": { "test": "Clinic BP + U&E (if ACEi/ARB)", "interval": "2 weeks", "reason": "BP response; K+ and creatinine safety" },
+    "bp_controlled": { "test": "Home BP monitoring", "interval": "3 months", "reason": "Confirm sustained control" },
+    "bp_stable": { "test": "Clinic BP + U&E", "interval": "Annually", "reason": "Maintenance" },
+    "new_t2dm": { "test": "HbA1c + eGFR + uACR + lipids + eye + foot", "interval": "3 months", "reason": "Baseline trend + complication screen (ADA 2024)" },
+    "t2dm_medication_adjusted": { "test": "HbA1c", "interval": "3 months", "reason": "Glycaemic response" },
+    "t2dm_stable": { "test": "HbA1c + eGFR + uACR + lipids", "interval": "6-monthly", "reason": "Maintenance; annual eye + foot mandatory" },
+    "prediabetes": { "test": "HbA1c", "interval": "6 months (year 1), then annually", "reason": "Monitor progression (ADA 2024)" },
+    "metformin_long_term": { "test": "B12 annually", "interval": "Annually", "reason": "Long-term metformin depletes B12 (ADA 2024)" },
+    "sglt2i_started": { "test": "eGFR + electrolytes", "interval": "4 weeks, then 3 months", "reason": "eGFR dip expected (acceptable ≤30%); DKA sick-day rules" },
+    "ida_oral_iron": { "test": "FBC + ferritin", "interval": "4–6 weeks", "reason": "Hb response ~10g/L rise per 2 weeks (NICE NG24)" },
+    "ida_hb_normalised": { "test": "FBC + ferritin", "interval": "3 months post-normalisation", "reason": "Replenish stores; target ferritin >50 µg/L" },
+    "hypothyroid_new": { "test": "TSH + free T4", "interval": "6 weeks", "reason": "Titration to TSH 0.5–2.5 mIU/L (NICE NG145)" },
+    "hypothyroid_stable": { "test": "TSH", "interval": "Annually", "reason": "Maintenance" },
+    "ckd_g3a": { "test": "eGFR + U&E + uACR + BP", "interval": "6-monthly", "reason": "NICE NG203" },
+    "ckd_g3b": { "test": "eGFR + U&E + uACR + FBC + BP", "interval": "3–4 monthly", "reason": "Anaemia screen; CKD-MBD" },
+    "af_detected": { "test": "12-lead ECG + echo + CHA₂DS₂-VASc + cardiology referral", "interval": "Within 2 weeks", "reason": "Anticoagulation decision" },
+    "af_on_noac": { "test": "eGFR + LFTs", "interval": "6-monthly", "reason": "Renal and hepatic safety" },
+    "lft_elevation_lt_2uln": { "test": "Repeat LFTs + hepatitis serology + GGT", "interval": "4–6 weeks", "reason": "Confirm transient vs persistent" },
+    "lft_elevation_gt_3uln": { "test": "LFTs + urgent USS + hepatology referral", "interval": "Within 2 weeks", "reason": "Significant hepatic injury" }
+  },
+  "red_flags": {
+    "cardiovascular": [
+      "Central chest pain, pressure, or tightness — especially radiating to jaw, left arm, or back → A&E; call 1990",
+      "Sudden severe headache ('worst ever') — hypertensive crisis / SAH → A&E immediately",
+      "Sudden one-sided weakness, facial droop, or speech difficulty → stroke (FAST test) → A&E; call 1990",
+      "Sudden vision loss in one or both eyes → TIA / retinal artery occlusion → A&E same day",
+      "Palpitations with dizziness, presyncope, or fainting → arrhythmia → A&E",
+      "Progressive breathlessness at rest or lying flat → heart failure → urgent same-day review"
+    ],
+    "diabetes": [
+      "Hypoglycaemia (shaking, sweating, confusion): 15g fast carbohydrate, recheck in 15 min; if unconscious → A&E; call 1990",
+      "Vomiting + fruity breath + confusion + extreme thirst → DKA → A&E immediately",
+      "Non-healing foot wound, redness, or swelling → diabetic foot infection → same-day urgent review",
+      "Sudden vision change or new floaters → diabetic retinal haemorrhage → ophthalmology same day"
+    ],
+    "renal": [
+      "Sudden greatly reduced or absent urine output → AKI → A&E immediately; call 1990",
+      "Progressive bilateral leg or facial swelling + breathlessness → fluid retention → urgent review",
+      "Confusion or drowsiness in known CKD → uraemic encephalopathy → A&E",
+      "Muscle twitching or cramps in CKD → hyperkalaemia → urgent ECG"
+    ],
+    "thyroid": [
+      "Extreme cold intolerance + drowsiness + very low temperature → myxoedema coma → A&E",
+      "Rapid irregular heartbeat + fever + extreme agitation → thyroid storm → A&E immediately",
+      "New or rapidly enlarging neck lump → urgent ENT/endocrinology (within 2 weeks)"
+    ],
+    "liver": [
+      "Yellowing of skin or eyes (jaundice) → urgent review within 24–48 hours",
+      "Vomiting blood or black tarry stools → upper GI bleed → A&E; call 1990",
+      "Severe right abdominal pain + fever → cholangitis / liver abscess → A&E",
+      "Confusion or drowsiness in known liver disease → hepatic encephalopathy → A&E"
+    ],
+    "anaemia": [
+      "Chest pain + breathlessness + palpitations in severe anaemia → cardiac decompensation → A&E",
+      "Fainting or near-fainting → urgent assessment",
+      "Active bleeding: heavy periods, black stools, blood in urine, haemoptysis → A&E if acute"
+    ],
+    "universal": [
+      "Unexplained weight loss >5 kg over 3 months → urgent malignancy screen",
+      "New persistent lump not resolving within 2–3 weeks → 2-week GP review",
+      "Night sweats + fever + lymph node swelling → haematological investigation",
+      "Persistent fatigue not improving with treatment → investigate for new pathology"
+    ],
+    "emergency_number": "1990 (Suwa Seriya — Sri Lanka ambulance service)"
+  },
+  "annual_review_checklist": [
+    "Full Blood Count (FBC)",
+    "Fasting lipid profile",
+    "HbA1c (if diabetic, pre-diabetic, or on statin)",
+    "eGFR + U&E (if on ACEi/ARB, NSAID, or known CKD)",
+    "LFTs + CK if symptomatic (if on statin)",
+    "TSH (if on levothyroxine or known hypothyroid)",
+    "Urine ACR (if hypertensive or diabetic)",
+    "Clinic blood pressure measurement",
+    "Weight + BMI + waist circumference",
+    "Eye review (if diabetic — annually mandatory)",
+    "Foot examination (if diabetic — annually mandatory)",
+    "Smoking status review",
+    "Alcohol intake review and counselling",
+    "Exercise tolerance and physical activity assessment",
+    "Medication review and adherence check",
+    "Mental health screen (PHQ-2 minimum)"
+  ]
+}

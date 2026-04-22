@@ -1,0 +1,134 @@
+{
+  "_source": "WHO · NICE · ESC/EAS 2021 · BSH · ADA 2024 — no Australian guidelines used",
+  "_note": "Medications referenced by generic name per NEMSL (National Essential Medicines List of Sri Lanka)",
+  "conditions": {
+    "iron_deficiency_anaemia": {
+      "source": "NICE NG24; BSH IDA 2022",
+      "first_line": "Ferrous sulfate 200mg TDS for 3 months after Hb normalises. Investigate and treat underlying cause.",
+      "alternatives": "Ferrous gluconate 300mg TDS if GI intolerance. IV iron (ferric carboxymaltose) if malabsorption, IBD, or oral intolerance.",
+      "targets": "Hb normalisation within 4 weeks; ferritin target >50 µg/L",
+      "monitoring": "FBC + ferritin at 4–6 weeks; continue iron 3 months post-normalisation",
+      "thresholds": "Transfusion if Hb <7.0 g/dL (symptomatic) or <8.0 (cardiac disease)"
+    },
+    "b12_deficiency": {
+      "source": "NICE; BSH B12 Folate 2014",
+      "first_line": "If dietary cause: oral cyanocobalamin 1mg daily. If malabsorption/pernicious anaemia: IM hydroxocobalamin 1mg alternate days ×6 doses, then every 3 months lifelong.",
+      "monitoring": "B12 + FBC at 3 months",
+      "note": "Check and treat concurrent folate deficiency. Correct before or with B12."
+    },
+    "folate_deficiency": {
+      "source": "NICE; BSH",
+      "first_line": "Folic acid 5mg daily × 4 months. Identify cause (dietary, malabsorption, drugs, alcohol).",
+      "note": "Never give folate alone without checking B12 — risk of precipitating subacute combined degeneration of spinal cord"
+    },
+    "type2_diabetes": {
+      "source": "NICE NG28; ADA 2024; WHO 2023",
+      "first_line": "Lifestyle modification (Mediterranean diet, ≥150 min/week exercise, weight loss). Start metformin (500mg BD, titrate to 1g BD if tolerated).",
+      "second_line_with_cvd_or_ckd": "Add SGLT2i (empagliflozin 10mg or dapagliflozin 10mg) — reduces CV events and CKD progression",
+      "second_line_without_cvd": "Add SGLT2i or GLP-1 RA (liraglutide/semaglutide) if weight loss priority; DPP4i if GI intolerance",
+      "targets": "HbA1c ≤48 mmol/mol (lifestyle only) / ≤53 mmol/mol (on medication); BP <130/80",
+      "monitoring": "HbA1c every 3 months until stable, then 6-monthly. Annual: eGFR + uACR + lipids + eye + foot exam",
+      "south_asian_note": "South Asians develop T2DM at lower BMI (~23 kg/m²). Treat pre-diabetes more aggressively. Visceral adiposity common even at normal BMI."
+    },
+    "prediabetes": {
+      "source": "NICE NG28; ADA 2024; WHO 2023",
+      "first_line": "Intensive lifestyle programme: reduce refined carbohydrates (white rice), increase vegetables/legumes/fibre, ≥150 min/week moderate exercise, target 5–10% weight loss if overweight.",
+      "pharmacological": "Consider metformin if BMI ≥25 (SA threshold) with additional risk factors",
+      "monitoring": "HbA1c at 6 months, then annually",
+      "south_asian_note": "Pre-diabetes progresses to T2DM faster in South Asians. Monitor at 6 months not 12."
+    },
+    "hypertension": {
+      "source": "NICE NG136 (Nov 2023); ISH Global 2020",
+      "targets": "General: <130/80 mmHg. Age ≥80: <150/90. CKD with proteinuria: <125/75.",
+      "first_line_under55": "ACE inhibitor (ramipril 2.5–10mg) or ARB (losartan 25–100mg) — especially if diabetes or CKD",
+      "first_line_over55_or_afrocariibbean": "CCB (amlodipine 5–10mg)",
+      "second_line": "Add CCB to ACEi/ARB. Or add thiazide-like diuretic (indapamide 1.5mg MR — preferred over bendroflumethiazide)",
+      "third_line": "Triple therapy: ACEi/ARB + CCB + indapamide",
+      "resistant": "Add spironolactone 25mg if K+<4.5, or alpha-blocker/beta-blocker. Investigate secondary hypertension.",
+      "monitoring": "Recheck BP at 2 weeks after new medication. U&E 1–2 weeks after starting ACEi/ARB. Annual check when stable."
+    },
+    "dyslipidaemia_primary_prevention": {
+      "source": "NICE NG238 2023; ESC/EAS 2021",
+      "statin_threshold": "10-year CVD risk ≥10% (WHO SEAR-B model) → offer atorvastatin 20mg",
+      "south_asian_consideration": "Discuss statin at ≥7.5% in South Asian patients with high-burden lipid/BP/metabolic profile",
+      "targets": "≥40% reduction in non-HDL cholesterol from baseline at 3 months",
+      "monitoring": "Lipid profile + LFTs at 6–8 weeks. CK if muscle symptoms.",
+      "titration": "If <40% non-HDL reduction: check compliance, increase to atorvastatin 40mg or 80mg"
+    },
+    "dyslipidaemia_secondary_prevention": {
+      "source": "NICE NG238; ESC/EAS 2021",
+      "first_line": "Atorvastatin 80mg",
+      "targets": "LDL <2.0 mmol/L (NICE 2023) AND ≥50% reduction from baseline",
+      "second_line": "Add ezetimibe 10mg if target not reached on max statin",
+      "monitoring": "Lipid profile at 6 weeks → 3 months → annually"
+    },
+    "hypertriglyceridaemia": {
+      "source": "ESC/EAS 2021; WHO",
+      "tg_1_7_to_5_6": "Lifestyle: reduce refined carbohydrates and alcohol, weight loss, ≥150 min/week aerobic exercise. Treat secondary causes (DM, hypothyroid, CKD, medications).",
+      "tg_above_5_6": "Consider fenofibrate 145mg/day (pancreatitis risk). Rule out secondary causes.",
+      "tg_above_11_3": "EMERGENCY — hospitalise, restrict dietary fat, insulin infusion if diabetic. Plasmapheresis if extreme."
+    },
+    "hypothyroidism": {
+      "source": "NICE NG145",
+      "first_line": "Levothyroxine: start 50–100 mcg/day (25 mcg if elderly >70 or cardiac disease). Take 30–60 min before food.",
+      "titration": "Titrate every 4–6 weeks. Target TSH 0.5–2.5 mIU/L.",
+      "monitoring": "TFT (TSH + FT4) at 6 weeks after each dose change. Annual TFT once stable."
+    },
+    "subclinical_hypothyroidism": {
+      "source": "NICE NG145",
+      "treat_if": "TSH >10 mIU/L, OR TSH 4–10 with symptoms, OR pregnant (TSH >2.5 in T1)",
+      "observe_if": "TSH 4–10 asymptomatic — repeat in 3–6 months"
+    },
+    "hyperthyroidism": {
+      "source": "NICE NG145; BTA",
+      "first_line": "Refer endocrinology. Carbimazole (titration or block-and-replace). PTU in pregnancy. Beta-blocker for symptom relief.",
+      "monitoring": "TFT + FBC (neutropenia risk from carbimazole) at 6–8 weeks"
+    },
+    "nafld_masld": {
+      "source": "NICE NG49; EASL 2024",
+      "key_intervention": "Weight loss ≥7% body weight — most effective intervention; reduces fibrosis in 50%",
+      "diet": "Mediterranean diet; restrict fructose (soft drinks, fruit juice); restrict alcohol completely",
+      "exercise": "150–200 min/week moderate aerobic — reduces hepatic fat independently of weight loss",
+      "monitoring": "Annual LFTs + USS. FIB-4 score annually to track fibrosis risk.",
+      "referral": "Hepatology if FIB-4 >2.67, or cirrhosis features (low platelets, raised INR, low albumin)"
+    },
+    "ckd_management": {
+      "source": "NICE NG203 2021; KDIGO 2022",
+      "all_stages": "BP <130/80. ACEi/ARB if proteinuria (uACR >3). Avoid NSAIDs, nephrotoxins. Low-sodium diet. Mediterranean diet.",
+      "g3a_g3b": "eGFR 6-monthly, uACR annually. Review medication doses.",
+      "g3b_g4": "Anaemia screen (EPO if Hb <10). Phosphate + calcium + PTH (CKD-MBD). Bicarbonate if acidosis.",
+      "g4_g5": "Nephrology referral. CKD-MBD management. Renal replacement therapy planning.",
+      "ace_arb_monitoring": "Check U&E 1–2 weeks after starting/adjusting. Acceptable creatinine rise ≤30%. Stop if >30% or K+ >5.5."
+    },
+    "uti_uncomplicated": {
+      "source": "NICE NG112",
+      "first_line": "Nitrofurantoin 100mg MR BD × 3 days (if eGFR >45)",
+      "alternative": "Trimethoprim 200mg BD × 3 days (if local resistance <20%)",
+      "upper_uti_pyelonephritis": "Co-amoxiclav or ciprofloxacin × 7–14 days. Urine culture essential.",
+      "sri_lanka_note": "Check local antibiogram — trimethoprim resistance rising in Sri Lanka. Send MSU for recurrent UTI."
+    },
+    "gout": {
+      "source": "NICE CG8; EULAR 2022",
+      "acute": "NSAIDs (naproxen 500mg BD) or colchicine (500 mcg BD–TDS) or prednisolone 30mg/day × 5 days",
+      "urate_lowering": "Allopurinol: start 50–100mg/day; increase monthly; target urate <0.36 mmol/L (ideally <0.30)",
+      "dietary": "Reduce red meat, beer, fructose-rich drinks, offal. Increase water intake. Weight loss."
+    },
+    "hyperkalaemia": {
+      "k_5_0_to_5_5": "Review diet, medications (ACEi/ARB, spironolactone, NSAIDs). Recheck in 1 week.",
+      "k_5_5_to_6_0": "Urgent ECG. Restrict dietary K+. Stop precipitating drugs.",
+      "k_above_6_0": "EMERGENCY: IV calcium gluconate 10ml 10% over 10 min (cardiac protection). IV insulin (10 units) + 50ml 50% dextrose. Salbutamol 10–20mg nebulised. Dialysis if refractory."
+    },
+    "hyponatraemia": {
+      "mild_130_to_136": "Fluid restrict 1–1.5L/day. Treat underlying cause.",
+      "moderate_125_to_130": "Treat cause. Max correction 10 mmol/L in first 24h.",
+      "severe_below_125": "Immediate assessment. Endocrinology/nephrology input. 3% saline ONLY if severe neurological symptoms.",
+      "warning": "Overly rapid correction → osmotic demyelination syndrome (central pontine myelinolysis). Max 10 mmol/L per 24h."
+    },
+    "vitamin_d_deficiency": {
+      "source": "NICE PH56; SACN",
+      "deficiency_below_25": "Loading regimen: colecalciferol total 300,000 IU over 6–10 weeks (e.g. 50,000 IU weekly × 6). Then maintenance 1000–2000 IU/day.",
+      "insufficiency_25_to_50": "Colecalciferol 1000–2000 IU/day",
+      "monitoring": "Recheck vitamin D + calcium at 3 months"
+    }
+  }
+}

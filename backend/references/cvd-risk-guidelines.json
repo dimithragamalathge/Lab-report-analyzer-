@@ -1,0 +1,95 @@
+{
+  "_source": "WHO CVD Risk Charts 2019 (SEAR-B) · NICE NG238 2023 · ESC/EAS 2021 · ISH Global 2020",
+  "_context": "Sri Lanka / South Asian. 10-year risk. NO Australian guidelines used.",
+  "risk_categories": {
+    "LOW":       { "risk_10yr_pct": "<5",   "management": "Lifestyle advice. No pharmacotherapy for primary prevention." },
+    "MODERATE":  { "risk_10yr_pct": "5–<10", "management": "Lifestyle intensive. Consider statin if risk factors persist." },
+    "HIGH":      { "risk_10yr_pct": "10–<20","management": "Statin recommended (NICE: atorvastatin 20mg). BP target <130/80." },
+    "VERY HIGH": { "risk_10yr_pct": "≥20",   "management": "High-intensity statin (atorvastatin 40–80mg). BP ≤130/80. Aspirin not routine in primary prevention." }
+  },
+  "nice_ng238_statin_threshold": {
+    "threshold_10yr_pct": 10,
+    "agent": "Atorvastatin 20mg",
+    "note": "≥40% non-HDL reduction target at 3 months. If not achieved: titrate up or add ezetimibe."
+  },
+  "clinical_high_risk_bypass": [
+    "Established CVD (prior MI, angina, stroke/TIA, PCI/CABG, PVD, aortic aneurysm)",
+    "Familial hypercholesterolaemia (confirmed or clinically suspected)",
+    "Diabetes mellitus with end-organ damage (nephropathy, retinopathy, neuropathy, microalbuminuria)",
+    "Severe CKD: eGFR <30 mL/min/1.73m²",
+    "LDL-C ≥4.9 mmol/L (190 mg/dL) — likely FH",
+    "Markedly elevated single risk factor: SBP ≥180 mmHg or TC ≥8.0 mmol/L"
+  ],
+  "ldl_targets_by_risk": {
+    "LOW":       { "ldl_mmol": 3.0, "ldl_mg_dl": 116, "non_hdl_mmol": 3.8 },
+    "MODERATE":  { "ldl_mmol": 2.6, "ldl_mg_dl": 100, "non_hdl_mmol": 3.4 },
+    "HIGH":      { "ldl_mmol": 1.8, "ldl_mg_dl": 70,  "non_hdl_mmol": 2.6 },
+    "VERY HIGH": { "ldl_mmol": 1.4, "ldl_mg_dl": 55,  "non_hdl_mmol": 2.2 },
+    "SECONDARY_PREVENTION": { "ldl_mmol": 1.4, "ldl_mg_dl": 55, "note": "AND ≥50% reduction from untreated baseline" }
+  },
+  "tc_hdl_ratio": {
+    "optimal":   "<3.5",
+    "acceptable": "3.5–4.9",
+    "borderline": "5.0–6.0",
+    "elevated":  ">6.0"
+  },
+  "triglyceride_thresholds": {
+    "normal_mmol":      1.7,
+    "lifestyle_mmol":   1.7,
+    "drug_consider_mmol": 5.6,
+    "emergency_mmol":  11.3,
+    "note": "TG >11.3 mmol/L = pancreatitis emergency. TG >5.6 mmol/L = consider fenofibrate."
+  },
+  "bp_targets": {
+    "low_risk_under60":     { "target": "<140/90", "start_meds": "SBP ≥160 or persistent ≥140 after lifestyle" },
+    "moderate_risk":        { "target": "<130/80", "start_meds": "SBP ≥140/90" },
+    "high_very_high_risk":  { "target": "<130/80", "start_meds": "SBP ≥130" },
+    "diabetes":             { "target": "<130/80", "start_meds": "SBP ≥130" },
+    "ckd_with_proteinuria": { "target": "<125/75", "start_meds": "Any elevation" },
+    "age_80_plus":          { "target": "<150/90", "start_meds": "SBP ≥160 (caution: frailty)" }
+  },
+  "south_asian_risk_modifiers": {
+    "ethnicity_multiplier": 1.4,
+    "evidence": "Tillin 2013 (SABRE cohort); INTERHEART South Asia; WHO SEAR-B calibration",
+    "bmi_overweight_threshold": 23,
+    "bmi_obese_threshold": 27.5,
+    "waist_male_cm": 90,
+    "waist_female_cm": 80,
+    "note": "South Asians develop CVD at younger age and lower traditional risk factor burden. 1.4× multiplier applied to all WHO SEAR-B calculated risks."
+  },
+  "reclassification_factors_upward": [
+    "Family history premature CVD (1st-degree: male <55, female <65)",
+    "High hsCRP (>2.0 mg/L) — independent inflammatory marker",
+    "Moderate CKD (eGFR 30–59 mL/min) — independent CVD risk",
+    "Low HDL <1.0 mmol/L (male) / <1.2 (female)",
+    "Hypertriglyceridaemia >1.7 mmol/L",
+    "Atrial fibrillation — calculate CHA₂DS₂-VASc separately",
+    "Central obesity: waist >90cm (M) / >80cm (F) — South Asian thresholds",
+    "Severe mental illness",
+    "Gestational hypertension / pre-eclampsia history (women)",
+    "HIV on antiretroviral therapy"
+  ],
+  "reassessment_frequency": {
+    "LOW": "Every 5 years",
+    "MODERATE": "Every 2 years",
+    "HIGH_VERY_HIGH": "Annually",
+    "on_pharmacotherapy": "Every 3 months until stable, then annually"
+  },
+  "cha2ds2vasc": {
+    "indication": "All patients with atrial fibrillation",
+    "scoring": {
+      "heart_failure": 1,
+      "hypertension": 1,
+      "age_75_plus": 2,
+      "diabetes": 1,
+      "prior_stroke_tia": 2,
+      "vascular_disease": 1,
+      "age_65_to_74": 1,
+      "female_sex": 1
+    },
+    "threshold_male": "≥2 → anticoagulation recommended",
+    "threshold_female": "≥3 → anticoagulation recommended",
+    "preferred_agent": "NOAC (apixaban or rivaroxaban) — NICE NG196",
+    "alternative": "Warfarin if NOAC contraindicated or unavailable"
+  }
+}

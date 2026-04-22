@@ -1,0 +1,12 @@
+.env
+backend/generated_reports/
+backend/lab_reports.db
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+*.db
+*.db-shm
+*.db-wal
