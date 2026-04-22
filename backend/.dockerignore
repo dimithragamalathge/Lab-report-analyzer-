@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+lab_reports.db
+generated_reports/
+uploads/
+.pytest_cache/
